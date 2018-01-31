@@ -26,10 +26,6 @@ def update_fkp() :
 #Verbose Boot
 def install_verbose_boot() :
 
-    ddffuu = raw_input("")
-
-    print("Putting device into pwned dfu...")
-
     enter_pwned_dfu()
 
     print("This option, only supports these versions on both BR: \n1) iOS 3.1.3\n2) iOS 4.1\n3) iOS 4.2.1\n4) iOS 5.0.1\n5) iOS 5.1.1\n6) iOS 6.1\n7) iOS 6.1.3\n8) iOS 6.1.6")
@@ -115,6 +111,7 @@ def enter_pwned_dfu() :
     print("Be in dfu, then hit any key once in dfu.")
     
     ddffuu = raw_input("")
+    
     os.system("clear && cd ipwndfu/ && ./ipwndfu -p")
 
 
