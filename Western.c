@@ -5,6 +5,6 @@
 
 
 int main() {
-  char command[11111] = "cd resources/ && python Western.py";
+  char command[11111] = "cd resources/bin/ && python Western.py";
   system(command);
 }
