@@ -3,6 +3,10 @@ A project? I guess. will include 3GS 3.0 and 3.0.1 bundles in the future.
 
 For license info, check the LICENSE file.
 
-No support, and for usage? figure it yourself.
+## Compiling
 
-For compiling, IDC what you use.
+'cd' into the Western source code directory, then type either 'clang Western.c -o Western' or 'gcc Western.c -o Western'.
+
+## Usage
+
+Just 'cd' into the Western folder with the compiled binary, then just type './Western' and the menu will appear.
