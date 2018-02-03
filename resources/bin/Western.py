@@ -14,7 +14,7 @@ def information_fkp() :
     os.system("clear")
 
     print("Nothing, really. Just a project the @32Bites maintains... sometimes.")
-    crdits()
+    credits()
 
 #Update manually, lol
 def update_fkp() :
