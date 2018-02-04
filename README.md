@@ -13,4 +13,4 @@ Just `cd` into the Western folder with the compiled binary, then just type `./We
 
 ## Credit
 
-## Thanks to Planetbeing for xpwn and axi0mx for ipwndfu
+Thanks to Planetbeing for xpwn and axi0mx for ipwndfu
