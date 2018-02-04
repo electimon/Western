@@ -116,7 +116,7 @@ def create_cfw() :
 #Pwned DFU
 def enter_pwned_dfu() :
 
-    print("Be in dfu, then hit any Enter once in dfu.")
+    print("Be in dfu, then hit Enter once in dfu.")
 
     ddffuu = raw_input("")
 
