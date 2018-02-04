@@ -10,3 +10,7 @@ For license info, check the LICENSE file.
 ## Usage
 
 Just `cd` into the Western folder with the compiled binary, then just type `./Western` and the menu will appear.
+
+## Credit
+
+## Thanks to Planetbeing for xpwn and axi0mx for ipwndfu
