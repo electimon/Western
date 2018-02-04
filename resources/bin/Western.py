@@ -26,7 +26,7 @@ def update_fkp() :
 #Verbose Boot
 def install_verbose_boot() :
 
-    enter_pwned_dfu()
+    os.system("clear")
 
     print("This option, only supports these versions on both BR: \n1) iOS 3.1.3\n2) iOS 4.1\n3) iOS 4.2.1\n4) iOS 5.0.1\n5) iOS 5.1.1\n6) iOS 6.1\n7) iOS 6.1.3\n8) iOS 6.1.6")
 
@@ -38,45 +38,53 @@ def install_verbose_boot() :
 
         print("The option you have chosen is not a integer!")
 
-        exit()
+        main()
 
     if verbose_option == 1:
+        enter_pwned_dfu()
 
         os.system("clear && cd ipwndfu/ && ./ipwndfu --flash-nor=NOR/3.1.3_.dump")
 
     elif verbose_option == 2:
+        enter_pwned_dfu()
 
         os.system("clear && cd ipwndfu/ && ./ipwndfu --flash-nor=NOR/4.1_.dump")
 
     elif verbose_option == 3:
+        enter_pwned_dfu()
 
         os.system("clear && cd ipwndfu/ && ./ipwndfu --flash-nor=NOR/4.2.1_.dump")
 
     elif verbose_option == 4:
+        enter_pwned_dfu()
 
         os.system("clear && cd ipwndfu/ && ./ipwndfu --flash-nor=NOR/5.0.1_.dump")
 
     elif verbose_option == 5:
+        enter_pwned_dfu()
 
         os.system("clear && cd ipwndfu/ && ./ipwndfu --flash-nor=NOR/5.1.1_.dump")
 
     elif verbose_option == 6:
+        enter_pwned_dfu()
 
         os.system("clear && cd ipwndfu/ && ./ipwndfu --flash-nor=NOR/6.1_.dump")
 
     elif verbose_option == 7:
+        enter_pwned_dfu()
 
         os.system("clear && cd ipwndfu/ && ./ipwndfu --flash-nor=NOR/6.1.3_.dump")
 
     elif verbose_option == 8:
+        enter_pwned_dfu()
 
         os.system("clear && cd ipwndfu/ && ./ipwndfu --flash-nor=NOR/6.1.6_.dump")
 
     else:
 
-
         print("NOT A VALID OPTION!")
-        exit()
+
+        main()
 
 
 #Restore to a Custom firmware
@@ -108,7 +116,7 @@ def create_cfw() :
 #Pwned DFU
 def enter_pwned_dfu() :
 
-    print("Be in dfu, then hit any key once in dfu.")
+    print("Be in dfu, then hit any Enter once in dfu.")
 
     ddffuu = raw_input("")
 
@@ -132,6 +140,8 @@ def install_alloc8_exploit() :
 
 
 def main() :
+
+    os.system("clear")
 
     print("Western has started.\n Script Written By @32Bites\n")
 
@@ -190,7 +200,6 @@ def main() :
         print("NOT A VALID OPTION!")
 
         exit()
-
     credits()
 
     print("\nI am done doing my job, please donate some BTC to: 12ixMaq2FnRkdwNBZGLrmG6NAdez7Cbt1Y")
