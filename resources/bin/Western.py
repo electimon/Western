@@ -6,7 +6,7 @@ def credits() :
 
     os.system("clear")
 
-    print("Main Credits: @32Bites, @Vyce_Merculous\nSoftware Used: XPwn, idevicerestore, ipwndfu\nSpecial Thanks To: Axi0mX, Planetbeing, and The iPhoneDevTeam.")
+    print("Main Credits: @32Bites, @Vyce_Merculous, Dingdongding30 on reddit\nSoftware Used: XPwn, idevicerestore, ipwndfu\nSpecial Thanks To: Axi0mX, Planetbeing, and The iPhoneDevTeam.")
 
 #Info
 def information_fkp() :
@@ -107,11 +107,11 @@ def create_cfw() :
 
 #Pwned DFU
 def enter_pwned_dfu() :
-    
+
     print("Be in dfu, then hit any key once in dfu.")
-    
+
     ddffuu = raw_input("")
-    
+
     os.system("clear && cd ipwndfu/ && ./ipwndfu -p")
 
 
@@ -132,8 +132,6 @@ def install_alloc8_exploit() :
 
 
 def main() :
-
-    os.system("clear && cd bin/")
 
     print("Western has started.\n Script Written By @32Bites\n")
 
@@ -192,6 +190,8 @@ def main() :
         print("NOT A VALID OPTION!")
 
         exit()
+
+    credits()
 
     print("\nI am done doing my job, please donate some BTC to: 12ixMaq2FnRkdwNBZGLrmG6NAdez7Cbt1Y")
 
