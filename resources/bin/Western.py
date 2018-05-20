@@ -202,6 +202,6 @@ def main() :
         exit()
     credits()
 
-    print("\nI am done doing my job, please donate some BTC to: 12ixMaq2FnRkdwNBZGLrmG6NAdez7Cbt1Y")
+    print("\nI am done doing my job, please donate some BTC to: 1NoahZsA8DqCqN9F86he5poiubjkW3ddEB")
 
 main()
