@@ -11,7 +11,7 @@ or if your Compiling the C code, type `clang Western.c` or `gcc Western.c`. Eith
 
 ## Usage
 
-Just `cd` into the Western folder with the compiled binary, then just type:  `./Western-YOUROSHERE` or for the bash script type:  `./Run.sh`, and the menu will appear. Replace the YOUROSHERE either with Linux_x64 or macOS_x64.
+Just `cd` into the Western folder with the compiled binary, then just type:  `./Western-YOUROSHERE` or for the bash script type:  `./Run.sh`, and the menu will appear. Replace the YOUROSHERE either with `Linux_x64` or `macOS_x64`.
 
 And for the few that may have compiled the C binaries on their own, type `./a.out` or if you renamed the binary replace `a.out` with the Binary-name you renamed it to.
 
