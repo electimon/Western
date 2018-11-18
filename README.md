@@ -23,5 +23,5 @@ And for the few that may have compiled the C binaries on their own, type `./a.ou
 
 ## Notice
 
-I am very much aware of C's `system();` function is easily ROPed. Also the who C executable thing is pointless, you can just run the Python file in the `resources` folder.
+I am very much aware of C's `system();` function is easily ROPed. Also the who C executable thing is pointless, you can just run the Python file  `resources/bin/Western.py` .
 
