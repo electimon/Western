@@ -6,7 +6,7 @@ def credits() :
 
     os.system("clear")
 
-    print("Main Credits: @32Bites, @Vyce_Merculous, Dingdongding30 on reddit\nSoftware Used: XPwn, idevicerestore, ipwndfu\nSpecial Thanks To: Axi0mX, Planetbeing, and The iPhoneDevTeam.")
+    print("Main Credits: Noah Scott (@CorruptByte on Twitter), @Vyce_Merculous, Dingdongding30 on reddit\nSoftware Used: XPwn, idevicerestore, ipwndfu\nSpecial Thanks To: Axi0mX, Planetbeing, and The iPhoneDevTeam.")
 
 #Info
 def information_fkp() :
@@ -143,7 +143,7 @@ def main() :
 
     os.system("clear")
 
-    print("Western has started.\n Script Written By @32Bites\n")
+    print("Western has started.\n Script Written By Noah Scott (@CorruptByte on Twitter)\n")
 
     print("Options:\n")
 
@@ -202,6 +202,6 @@ def main() :
         exit()
     credits()
 
-    print("\nI am done doing my job, please donate some BTC to: 1NoahZsA8DqCqN9F86he5poiubjkW3ddEB")
+    print("\nI am done doing my job.")
 
 main()
