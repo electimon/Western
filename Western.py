@@ -8,6 +8,8 @@ def credits() :
 
     print("Main Credits: Noah Scott (@CorruptByte on Twitter), @Vyce_Merculous, Dingdongding30 on reddit\nSoftware Used: XPwn, idevicerestore, ipwndfu\nSpecial Thanks To: Axi0mX, Planetbeing, and The iPhoneDevTeam.")
 
+    gotoMain()
+
 #Info
 def information_fkp() :
 
@@ -16,12 +18,16 @@ def information_fkp() :
     print("Nothing, really. Just a project the @32Bites maintains... sometimes.")
     credits()
 
+    gotoMain()
+
 #Update manually, lol
 def update_fkp() :
 
     os.system("clear")
 
     print("I won't bother to add this option, If you need to update, do it manually.")
+
+    gotoMain()
 
 #Verbose Boot
 def install_verbose_boot() :
@@ -85,6 +91,8 @@ def install_verbose_boot() :
         print("NOT A VALID OPTION!")
 
         main()
+    
+    gotoMain()
 
 
 #Restore to a Custom firmware
@@ -98,6 +106,8 @@ def restore_cfw() :
 
     os.system("idevicerestore -c " + cfw_path)
 
+    gotoMain()
+
 
 #Create Custom Firmware ipsw
 def create_cfw() :
@@ -108,9 +118,19 @@ def create_cfw() :
 
     base_ipsw_path = raw_input("Path to base ipsw ! ")
 
-    save_cfw_path = raw_input("Path to save ipsw ! ")
+    save_cfw_path = raw_input("Path to save ipsw (WITH FILENAME) ! ")
+    
+    input = raw_input("Do you want to update the baseband? (Y/n) ! ")
+    
+    if input == "Y" or "y" :
+        os.system("./ipsw " + base_ipsw_path + " " + save_cfw_path + "-b Logos/0.png -r Logos/1.png -bbupdate")
+    elif input == "N" or "n" :
+        os.system("./ipsw " + base_ipsw_path + " " + save_cfw_path + "-b Logos/0.png -r Logos/1.png")
+    else :
+        os.system("./ipsw " + base_ipsw_path + " " + save_cfw_path + "-b Logos/0.png -r Logos/1.png -bbupdate")
 
-    os.system("./ipsw " + base_ipsw_path + " " + save_cfw_path + "-b Logos/0.png -r Logos/1.png -bbupdate")
+    gotoMain()
+
 
 
 #Pwned DFU
@@ -122,6 +142,8 @@ def enter_pwned_dfu() :
 
     os.system("clear && cd ipwndfu/ && ./ipwndfu -p")
 
+    gotoMain()
+
 
 #24KPwn
 def install_24kpwn_exploit() :
@@ -130,6 +152,8 @@ def install_24kpwn_exploit() :
 
     os.system("clear && cd ipwndfu/ && ./ipwndfu --24kpwn")
 
+    gotoMain()
+
 
 #Alloc8
 def install_alloc8_exploit() :
@@ -137,6 +161,18 @@ def install_alloc8_exploit() :
     enter_pwned_dfu()
 
     os.system("clear && cd ipwndfu/ && ./ipwndfu -x")
+
+    gotoMain()
+
+def gotoMain() :
+    gotoMainn = raw_input("Do you want to continue using Western? (Y/n) ! ")
+
+    if gotoMainn == "Y" or "y" :
+        main()
+    elif (gotoMainn) == "N" or "n" :
+        exit()
+    else :
+        main()
 
 
 def main() :
