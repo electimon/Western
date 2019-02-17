@@ -1,16 +1,19 @@
 # Western
-A project? I guess. will include 3GS 3.0 and 3.0.1 bundles in the future.
+A project? I guess. will include 3GS 3.0 and 3.0.1 bundles in the future. A wrapper for OUTDATED ipwndfu.
 
 For license info, check the LICENSE file.
 
-## Compiling
-
-`cd` into the Western source code directory, then type either `clang Western.c -o Western` or `gcc Western.c -o Western`.
 
 ## Usage
 
-Just `cd` into the Western folder with the compiled binary, then just type `./Western` and the menu will appear.
+`cd` into the root directory of Western, then run `python western.py`
 
 ## Credit
 
-Thanks to Planetbeing for xpwn and axi0mx for ipwndfu
+* Axi0mX for ipwndfu
+* planetbeing for XPwn
+* Dingdongding30 on Reddit for some tips :P
+
+## Notice
+
+This uses an outdated version of ipwndfu, I'll update it soon.
